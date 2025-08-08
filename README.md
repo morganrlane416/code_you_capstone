@@ -31,7 +31,7 @@ In one dataframe, there are two new columns added to provide specific success me
 
 To use the data in Tableau, open a Tableau desktop file, add the data source as "together.csv", which is a text file, click on Sheet 1, and select the data of interest to you from the available column/row names. After selecting the data of interest to you, you can choose the visualization that you prefer from the sidebar on the right. Adjust your Tooltips, titles, and features of the visualizations as you see fit.
 
-For details on how the data was originally scored and evaluated, click [here]https://www.education.ky.gov/AA/Acct/Documents/Accountability_at_a_Glance.pdf?utm_source=chatgpt.com. For general information on the available data in regard to KDE report cards, click [here]https://www.education.ky.gov/Open-House/data/Pages/Historical-SRC-Datasets.aspx.
+For details on how the data was originally scored and evaluated, click [here](https://www.education.ky.gov/AA/Acct/Documents/Accountability_at_a_Glance.pdf?utm_source=chatgpt.com). For general information on the available data in regard to KDE report cards, click [here](https://www.education.ky.gov/Open-House/data/Pages/Historical-SRC-Datasets.aspx).
 
 # Technologies Used
 Pandas was used to clean and manipulate the dataset to identify trends in Kentucky school data (i.e. test scores, survey results, and postsecondary readiness metrics). Matplotlib was used to show visualizations of the data. SQLite was used to join multiple dataframes into one for the purpose of easier access to information in Tableau. Tableau was used to add more visualizations, specifically in regard to postsecondary readiness.
