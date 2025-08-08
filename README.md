@@ -1,4 +1,3 @@
-# code_you_capstone
 # KDE Success Data Observations
 
 # Project Setup Instructions
