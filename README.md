@@ -13,14 +13,39 @@ Make sure you have the following installed before running the notebooks:
 - **Git LFS**: Follow the installer instructions [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). This will allow for large file storage, which is necessary for one of the datasets in this project.
 
 ## How to Use
-1. Download 
-2. Clone this repository.
-3. Open the folder in Visual Studio Code.
-4. Open the "Capstone" file with the Jupyter extension.
-5. Click the "run all" button.
+1. Clone this repository.
+2. Open the folder in Visual Studio Code.
+3. Set up a virtual environment: 
+   On Windows:
+
+   ```
+   python -m venv venv
+   ```
+
+   On macOS and Linux:
+
+   ```
+   python3 -m venv venv
+   ```
+4. Activate the virtual environment:
+   On Windows:
+
+   ```
+   .\venv\Scripts\activate
+   ```
+
+   On macOS and Linux:
+
+   ```
+   source venv/bin/activate
+5. Install the required packages
+
+   ```
+   pip install -r requirements.txt
+6. Run the "Capstone.ipynb" file. 
 
 # Project Overview
-This project uses data from the KDE report card datasets to provide more insight into connections made between different success metrics. The datasets were cleaned to fit the specific level of interest (high school) and to minimize the amount of unnecessary information being processed. Specifically, the data focused on test scores, quality of school climate/safety, and postsecondary readiness.
+This project uses data from the KDE report card datasets to provide more insight into connections made between different success metrics. The datasets were cleaned to fit the specific level of interest (high school) and to minimize the amount of unnecessary information being processed. Specifically, the data focuses on test scores, quality of school climate/safety, and postsecondary readiness.
 
 Upon running the code in this file, the data should be automatically read, cleaned, and processed. The user will be required to input two integers indicating their content and non-content areas of interest to consider for this topic. 
 
