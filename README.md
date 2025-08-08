@@ -7,15 +7,18 @@
 Make sure you have the following installed before running the notebooks:
 - **Python**: If you are on a mac or linux machine just follow the steps [here](https://www.geeksforgeeks.org/how-to-install-python-on-windows/) to download the newest version of Python. Avoid installing brew as it's not needed and will only complicate things if you're not familiar with the terminal.
 
-- **VS Code**: Follow the installer instructions [here]https://code.visualstudio.com/download. If it prompts you with a survey of development questions, just choose something as it will not change what is installed. Click [here]https://code.visualstudio.com/docs/introvideos/basics to familiarize yourself with VS Code.
+- **VS Code**: Follow the installer instructions [here](https://code.visualstudio.com/download). If it prompts you with a survey of development questions, just choose something as it will not change what is installed. Click [here](https://code.visualstudio.com/docs/introvideos/basics) to familiarize yourself with VS Code.
 
-- **Jupyter Notebook Extensions for VS Code**: Watch the video [here]https://code.visualstudio.com/docs/datascience/jupyter-notebooks and follow the instructions to add the extensions for Jupyter Notebook in VS Code.
+- **Jupyter Notebook Extensions for VS Code**: Watch the video [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) and follow the instructions to add the extensions for Jupyter Notebook in VS Code.
+
+- **Git LFS**: Follow the installer instructions [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). This will allow for large file storage, which is necessary for one of the datasets in this project.
 
 ## How to Use
-1. Clone this repository.
-2. Open the folder in Visual Studio Code.
-3. Open the "Capstone" file with the Jupyter extension.
-4. Click the "run all" button.
+1. Download 
+2. Clone this repository.
+3. Open the folder in Visual Studio Code.
+4. Open the "Capstone" file with the Jupyter extension.
+5. Click the "run all" button.
 
 # Project Overview
 This project uses data from the KDE report card datasets to provide more insight into connections made between different success metrics. The datasets were cleaned to fit the specific level of interest (high school) and to minimize the amount of unnecessary information being processed. Specifically, the data focused on test scores, quality of school climate/safety, and postsecondary readiness.
